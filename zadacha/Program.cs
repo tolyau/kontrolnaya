@@ -10,3 +10,6 @@
 */
 
 string[] name = { "Ольга", "Андрей", "Яна", "Никита", "Зоя", "Дмитрий", "Лев" }; 
+int length = ArrayLength(name);
+string[] sName = new string[length];
+int ArrayLength(string[] str)
