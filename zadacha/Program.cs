@@ -13,3 +13,14 @@ string[] name = { "Ольга", "Андрей", "Яна", "Никита", "Зо�
 int length = ArrayLength(name);
 string[] sName = new string[length];
 int ArrayLength(string[] str)
+{
+    int count = 0;
+    for (int i = 0; i < str.Length; i++)
+    {
+        if (str[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    return count;
+}
