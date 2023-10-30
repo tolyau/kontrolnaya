@@ -24,3 +24,14 @@ int ArrayLength(string[] str)
     }
     return count;
 }
+for (int i = 0, j = 0; i < name.Length; )
+{
+    if (name[i].Length <= 3)
+    {
+        shortName[j] = name[i];
+        j++;
+    }
+    i++;
+}
+
+System.Console.WriteLine(string.Join(", ", sName));
